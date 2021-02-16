@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(243, 243, 243);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+}
+
+.TV {
+	display: flex;
+	align-items: center; 
+	justify-content: center; 
+	width: 65%;
+}
+
+.TV img {
+	height: 25rem;
+}
+
+.Live {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 40%;
+	min-height: 34rem;
+}
+
+.Conta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+}
+
+.Conta:nth-child(1) {
+	min-height: 19rem;
+}
+
+.logo {
+	height: 3rem;
+}
+
+.profile-photo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5%;
+	overflow: hidden;
+}
+
+.profile-photo img {
+	height: 6rem;
+}
+
+.CriarConta {
+	background-color: black;
+	color: white;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+
+.not-account {
+	color: rgb(180, 160, 160);
+}
+
+.link-blue {
+	color: #0095f6;
+}
+
+.get-the-app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+
+.download {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+.app-download {
+	height: 3rem;
+	width: 10rem;
+	background-size: cover;
+}
+
+.app-download:nth-child(1) {
+	background-image: url('apple-button.png');
+}
+
+.app-download:nth-child(2) {
+	background-image: url('googleplay-button.png');
+}
+
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+	body {
+		background-color: #ffffff;
+	}
+
+	.wrapper {
+		width: 90%;
+	}
+
+	.TV {
+		display: none;
+	}
+
+	.Live {
+		width: 100%;
+	}
+
+	.Conta {
+		border: 1px solid transparent;
+	}
+}

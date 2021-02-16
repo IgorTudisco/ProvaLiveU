@@ -1,0 +1,9 @@
+{
+  "name": "prova-live-u",
+  "version": "0.0.0",
+  "description": "ProvaLiveU",
+  "main": "server.js",
+  "author": {
+    "name": "virtual2.febracorp.org.br:1433"
+  }
+}

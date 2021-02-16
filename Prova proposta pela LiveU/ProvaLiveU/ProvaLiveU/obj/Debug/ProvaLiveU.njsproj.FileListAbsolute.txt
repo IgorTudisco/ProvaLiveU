@@ -1,0 +1,3 @@
+C:\Users\igort\Documents\Prova proposta de Trabalho\ProvaLiveU\ProvaLiveU\obj\Debug\ProvaLiveU.njsprojAssemblyReference.cache
+C:\Users\igort\Documents\Prova proposta de Trabalho\ProvaLiveU\ProvaLiveU\obj\Debug\ProvaLiveU.njsproj.CoreCompileInputs.cache
+C:\Users\igort\Documents\Prova proposta de Trabalho\ProvaLiveU\ProvaLiveU\bin\Microsoft.NodejsTools.WebRole.dll

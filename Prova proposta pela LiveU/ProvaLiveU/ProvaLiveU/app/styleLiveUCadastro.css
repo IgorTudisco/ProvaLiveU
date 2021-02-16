@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.Banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+    .Banner img {
+        height: 20rem;
+    }
+
+.Live {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 40%;
+    min-height: 34rem;
+}
+
+.Conta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+    .Conta:nth-child(1) {
+        min-height: 19rem;
+    }
+
+.logo {
+    height: 3rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+    .profile-photo img {
+        height: 6rem;
+    }
+
+
+#txtDados {
+    border: 0px solid blue;
+    background: lightgrey;
+    width: 260px;
+    height: 23px;
+    margin: 10;
+    padding: 5px 5px 5px 5px;
+    float: left;
+    // posição do campo line-height:36px;
+    // altura da linha
+}
+
+#btnDados {
+    background: white;
+    position: relative;
+    border: 5px solid lightblue;
+    color: black;
+    margin: 10;
+    padding: 10px;
+    border: 0 none;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+    #btnDados:hover {
+        background: lightblue;
+    }
+
+.Cadastro {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+
+/* media queries */
+
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .Banner {
+        display: none;
+    }
+
+    .Live {
+        width: 100%;
+    }
+
+    .Conta {
+        border: 1px solid transparent;
+    }
+}
